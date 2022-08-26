@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de Pesquisa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Pesquisa Estética</h1>
+    <p id="description">
+      Este formulário tem por finalidade identificar os clientes que desejam
+      fazer uma avaliação estética para futuros procedimentos.
+    </p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Nome Completo:
+          <input
+            id="name"
+            name="fullName"
+            type="text"
+            placeholder="Andre Fernando Pereira"
+            required
+        /></label>
+        <label id="email-label"
+          >E-mail:
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="andrefpereira@estetica.com"
+            required
+        /></label>
+        <label id="number-label"
+          >Idade:
+          <input
+            id="number"
+            name="number"
+            type="number"
+            min="18"
+            max="100"
+            placeholder="29"
+            required
+        /></label>
+      </fieldset>
+    </form>
+  </body>
+</html>
